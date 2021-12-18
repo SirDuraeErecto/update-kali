@@ -56,8 +56,8 @@ if 'Kali' in release:
     # These git repositories will be synced to the 'personal repo' directory. I use my home directory.
     personal_repo_directory = os.getenv("HOME")
     personal_repositories_to_sync = [
-                                    'git@github.com:rafaelh/dotfiles',
-                                    'git@github.com:rafaelh/.private'
+                                    'git@github.com:SirDuraeErecto/dotfiles',
+                                    'git@github.com:SirDuraeErecto/.private'
                                     ]
 
     # Next, take a look in the /scripts directory. Every script ending in .sh or .py will be run,
@@ -104,8 +104,8 @@ if 'Ubuntu' in release and not are_we_on_wsl:
     # These git repositories will be synced to the 'personal repo' directory. I use my home directory.
     personal_repo_directory = os.getenv("HOME")
     personal_repositories_to_sync = [
-                                    'git@github.com:rafaelh/dotfiles',
-                                    'git@github.com:rafaelh/.private'
+                                    'git@github.com:SirDuraeErecto/dotfiles',
+                                    'git@github.com:SirDuraeErecto/.private'
                                     ]
 
     # Next, take a look in the /scripts directory. Every script ending in .sh or .py will be run,
@@ -148,8 +148,8 @@ if 'Ubuntu' in release and are_we_on_wsl:
     # These git repositories will be synced to the 'personal repo' directory. I use my home directory.
     personal_repo_directory = os.getenv("HOME")
     personal_repositories_to_sync = [
-                                    'git@github.com:rafaelh/dotfiles',
-                                    'git@github.com:rafaelh/.private'
+                                    'git@github.com:SirDuraeErecto/dotfiles',
+                                    'git@github.com:SirDuraeErecto/.private'
                                     ]
 
     # Next, take a look in the /scripts directory. Every script ending in .sh or .py will be run,
